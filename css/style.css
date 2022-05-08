@@ -1,6 +1,7 @@
 .nav-li {color: #3D37F1;
          font-size: 20px;
          font-family: 'Red Hat Mono', monospace;
+
     }
 .li {display: flex;
      justify-content: space-between;
@@ -11,8 +12,9 @@
 .header {display: flex;
          justify-content: space-between;
          align-items: center;
-         margin: 67px 80px 262px 132px;
-         width: 1200px;}
+         margin: 0 auto;
+         width: 1300px;
+        margin-bottom: 285px;}
 
 .clickdiv {display: flex;
 	       background: #3D37F1;
@@ -48,9 +50,10 @@
 .photobig {width: 400px;
            height: 300px;}
 .section1 {display: flex;
-           width: 1200px;
+           width: 1300px;
            justify-content: space-between;
-           margin: 0px 80px 0px 132px;}
+           margin: 0 auto;
+           /*margin: 0px 80px 0px 132px;*/}
 .pdiv {font-size:  20px;
        color: #3D37F1 ;
        width: 150px;
@@ -74,7 +77,9 @@
           flex-wrap: wrap;
           width: 1200px;
           align-items: center;
-          margin-left: 132px ;
+          /*margin-left: 132px ;*/
+          margin-top: 287px;
+          margin: 0 auto;
           flex-direction: column;
           font-family: 'Red Hat Mono', monospace;
      }
@@ -117,10 +122,12 @@
                      border-color:red;}
 .boxesdiv {width: 1200px;
            height: 960px;
-           margin-left:132px;
+           /*margin-left:132px;*/
            display: flex;
            flex-wrap: wrap;
-           justify-content: space-around;}
+           justify-content: space-around;
+           margin: 0 auto}
+
 .d2 {background:#41EAE3;}
 .d3 {background:#69529F;}
 .d4 {background:#4386D2;}
@@ -144,7 +151,6 @@
       }
 .divmorefirst:hover {background: lightgreen;
                      border-color:lightgreen}
-
 
 
 
