@@ -1,5 +1,7 @@
 .nav-li {color: #3D37F1;
-         font-size: 20px;}
+         font-size: 20px;
+         font-family: 'Red Hat Mono', monospace;
+    }
 .li {display: flex;
      justify-content: space-between;
       width: 800px;
@@ -19,15 +21,24 @@
 	       align-items: center;
 	      justify-content: space-around;
 	      border-width: medium;
-	      border-radius: 50px;}
+	      border-radius: 50px;
+           transition: all 2s ease-in-out;
+          
+      }
+
+.clickdiv:hover {background: lightgreen;
+                 width: 200px;
+}
 
 .p1 {color: #534D4D;
 	 font-size: 78px;
-	 margin-bottom: 42px;}
+	 margin-bottom: 42px;
+      font-family: 'Red Hat Mono', monospace;}
 
 .p2 {color:#534D4D;
      font-size:22px;
      margin-bottom: 100px;
+     font-family: 'Red Hat Mono', monospace;
 }
 .clickp {color:#FFFFFF;
          font-size:23px;}
@@ -64,24 +75,28 @@
           width: 1200px;
           align-items: center;
           margin-left: 132px ;
-          flex-direction: column;}
+          flex-direction: column;
+          font-family: 'Red Hat Mono', monospace;
+     }
 .div1d {display: flex;
          background:#FBBA77 ;
          width: 370px;
          height: 451px;
          align-items: center;
-         /*text-align: center;*/
          flex-direction: column;
-         align-items: center;
 }
 .texto {font-size: 22px;
         color: #FFFFFF;
         text-align: center;
-        margin-bottom: 13px;}
+        margin-bottom: 13px;
+        font-family: 'Red Hat Mono', monospace;
+   }
 .texto1 {font-size: 16px;
          color:#FFFFFF;
          text-align: center;
-         margin-bottom: 11px;}
+         margin-bottom: 11px;
+         font-family: 'Red Hat Mono', monospace;
+    }
 .service {padding-top: 88px;
           margin-bottom: 57px;}
 .divmore1 {color:#FFFFFF;
@@ -96,7 +111,10 @@
            border-style: solid;
           border-width: medium;
           border-color: #FFFFFF;
+          transition: all 1.5s ease-in-out;
       }
+.divmore1:hover {
+                     border-color:red;}
 .boxesdiv {width: 1200px;
            height: 960px;
            margin-left:132px;
@@ -122,7 +140,12 @@
            border-style: solid;
           border-width: medium;
           border-color: #FFFFFF;
+          transition: all 1.5s ease-in-out;
       }
+.divmorefirst:hover {background: lightgreen;
+                     border-color:lightgreen}
+
+
 
 
 
